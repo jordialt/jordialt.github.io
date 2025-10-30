@@ -12,7 +12,7 @@ Here you will find a selection of my academic and personal projects. Click the t
 * Implemented obstacle avoidance and basic path planning in Gazebo + ROS.
 * Focused on integrating perception and control modules.
 
-!(https://raw.githubusercontent.com/jordialt/IR2134/main/exam_ws/src/rmf_rectorate/Patrol_1.png)
+![](https://raw.githubusercontent.com/jordialt/IR2134/main/exam_ws/src/rmf_rectorate/Patrol_1.png)
 
 ---
 
