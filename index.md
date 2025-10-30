@@ -1,3 +1,7 @@
+**[Home](index.md) | [My Projects](projects.md)**
+
+---
+
 # Jordi Altarejos Bono
 *Castellón de la Plana, Spain*
 
