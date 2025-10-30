@@ -8,7 +8,7 @@ Here you will find a selection of my academic and personal projects. Click the t
 
 ---
 
-### [Autonomous Robot Navigation (Simulation) - Course Work](https://github.com/jordialt/URL-DEL-TEU-REPO-ROS)
+### [Autonomous Robot Navigation (Simulation) - Course Work](https://github.com/jordialt/IR2134)
 * Implemented obstacle avoidance and basic path planning in Gazebo + ROS.
 * Focused on integrating perception and control modules.
 
