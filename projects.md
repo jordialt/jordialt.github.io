@@ -1,29 +1,30 @@
----
-title: My Projects
+**[Home](index.md) | [My Projects](projects.md)**
+
 ---
 
 ### 🚀 PROJECTS
 
-Aquí trobaràs una selecció dels meus projectes acadèmics i personals. Fes clic al títol de cada projecte per veure el codi font a GitHub.
+Here you will find a selection of my academic and personal projects. Click the title of each project to see the source code on GitHub.
 
 ---
 
-### [Autonomous Robot Navigation (Simulation)](https://github.com/jordialt/IR2134)
+### [Autonomous Robot Navigation (Simulation) - Course Work](https://github.com/jordialt/URL-DEL-TEU-REPO-ROS)
 * Implemented obstacle avoidance and basic path planning in Gazebo + ROS.
 * Focused on integrating perception and control modules.
 
-![Imatge de la simulació de Gazebo](https://github.com/jordialt/IR2134/raw/main/exam_ws/src/rmf_rectorate/Patrol_1.png)
+!([URL-DE-LA-TEVA-IMATGE-GAZEBO.png](https://raw.githubusercontent.com/jordialt/IR2134/main/exam_ws/src/rmf_rectorate/Patrol_1.png))
 
 ---
 
-### Image Processing with OpenCV
+### Image Processing with OpenCV-Course Work
 * Developed an edge detection and segmentation system using OpenCV.
 * Designed for preprocessing data in robotic vision applications.
 
 
+
 ---
 
-### Image Classification using Machine Learning
+### Image Classification using Machine Learning- Course Work
 * Built an image classification model using scikit-learn and scikit-image.
 * Applied algorithms such as SVM and Random Forest for comparative evaluation.
 
