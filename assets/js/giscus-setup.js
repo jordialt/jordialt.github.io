@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "jordialt/jordialtCV.github.io",
+    "data-repo": "jordialt/jordialt.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
