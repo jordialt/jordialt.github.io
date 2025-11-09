@@ -1,13 +1,12 @@
--
-  label: E-mail
-  icon: fas fa-envelope 
-  [cite_start]url: "mailto:jordialtarejos@gmail.com" 
--
-  label: GitHub
-  icon: fab fa-github 
-  [cite_start]url: "https://github.com/jordialt" 
--
-  label: LinkedIn
-  icon: fab fa-linkedin 
-  [cite_start]url: "https://www.linkedin.com/in/jordi-altarejos-bono" 
+# this file contains the social media links and usernames of the author
+# uncomment the lines you want to use
 
+email: jordialtarejos@gmail.com # your email address
+github_username: jordialt # your GitHub user name
+linkedin_username: jordi-altarejos-bono # your LinkedIn user name
+
+# --- The following are optional ---
+# rss_icon: true # comment this line to hide the RSS icon
+# scholar_userid: # your Google Scholar ID
+# orcid_id: # your ORCID ID
+# x_username: # your X handle
