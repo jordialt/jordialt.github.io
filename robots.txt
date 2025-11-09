@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jordialtcv.github.io/sitemap.xml
+Sitemap: https://jordialt.github.io/sitemap.xml
