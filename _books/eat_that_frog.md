@@ -13,7 +13,7 @@ started: 27-10-2025
 released: 2006
 stars: 4
 # goodreads_review: # [ADD GOODREADS REVIEW ID HERE]
-status: In progress
+status: Reading
 ---
 
 **Main Review**
