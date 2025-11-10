@@ -7,9 +7,8 @@ category: fun
 # Add an image for your project if you have one
 # img: assets/img/llm-rl-agent.png 
 github: jordialt/llm-rl-agent 
-# website: # Add a link to a live demo if you have one
+# website: https://github.com/jordialt/llm-rl-agent 
 ---
-<a href="https://github.com/jordialt/llm-rl-agent" target="_blank" class="btn btn-sm z-depth-0 role="button"">View Code on GitHub</a>
 This project explores the exciting intersection of **Large Language Models (LLMs)** and **Reinforcement Learning (RL)**. 
 
 It implements an LLM-guided PPO (Proximal Policy Optimization) agent for training in the standard Gymnasium **CartPole environment**. This approach is often used to inject higher-level reasoning or constraints into traditional RL systems.
