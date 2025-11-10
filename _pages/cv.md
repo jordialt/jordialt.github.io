@@ -18,5 +18,5 @@ jsonresume:
   - references
 
 # This adds a "Download PDF" button. Ensure your PDF is named correctly.
-a_pdf: Europass_CV_1.pdf 
+a_pdf: cv.pdf 
 ---
