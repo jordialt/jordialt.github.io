@@ -7,7 +7,7 @@ category: fun
 # Add an image for your project if you have one
 # img: assets/img/llm-rl-agent.png 
 github: jordialt/llm-rl-agent 
-# website: https://github.com/jordialt/llm-rl-agent 
+website: https://github.com/jordialt/llm-rl-agent 
 ---
 This project explores the exciting intersection of **Large Language Models (LLMs)** and **Reinforcement Learning (RL)**. 
 
