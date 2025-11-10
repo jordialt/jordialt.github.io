@@ -127,7 +127,7 @@
     {
       "name": "Autonomous Robot Navigation (Simulation)",
       "summary": "Implemented obstacle avoidance and basic path planning in Gazebo + ROS. Focused on integrating perception and control modules.",
-      "startDate": "2023",
+      "startDate": "2024",
       "url": ""
     },
     {
