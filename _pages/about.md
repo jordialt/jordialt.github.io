@@ -6,7 +6,7 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # Posa 'true' si vols la foto rodona
+  image_circular: true # Posa 'true' si vols la foto rodona
 
 selected_papers: false # Oculta "Publicacions seleccionades"
 social: true # Mostra les teves icones socials (del Pas 2)
