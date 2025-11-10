@@ -22,11 +22,9 @@ latest_posts:
 
 ### Technical Skills
 
-A continuació es mostren les tecnologies clau que he utilitzat als meus projectes de robòtica i IA:
-
 <div class="row">
     <div class="col-md-6">
-        <strong><i class="fas fa-code"></i> Programació i Eines</strong>
+        <strong><i class="fas fa-code"></i> Programming and Tools</strong>
         <ul class="list-unstyled">
             <li><i class="fas fa-check-circle text-success"></i> Python</li>
             <li><i class="fas fa-check-circle text-success"></i> C++</li>
@@ -35,9 +33,9 @@ A continuació es mostren les tecnologies clau que he utilitzat als meus project
             <li><i class="fas fa-check-circle text-success"></i> Jupyter Notebook</li>
             
         </ul>
-    </div>
+</div>
     <div class="col-md-6">
-        <strong><i class="fas fa-robot"></i> Biblioteques de Robòtica i IA</strong>
+        <strong><i class="fas fa-robot"></i> AI and Robotics Libraries</strong>
         <ul class="list-unstyled">
             <li><i class="fas fa-check-circle text-success"></i> OpenCV</li>
             <li><i class="fas fa-check-circle text-success"></i> scikit-learn</li>
