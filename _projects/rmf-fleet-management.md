@@ -9,7 +9,7 @@ category: work
 github: jordialt/ir2134
 # website: # Add a link to a video demo if available
 ---
-
+<a href="https://github.com/jordialt/IR2134" target="_blank" class="btn btn-sm z-depth-0 role="button"">View Code on GitHub</a>
 This project was developed for a course in **Robotic Intelligence** focusing on the deployment and coordinated operation of autonomous mobile robots in a structured indoor environment.
 
 It utilizes the **Robotics Middleware Framework (RMF)** to simulate a fleet of diverse robotic agents (including `cleanerBotA` and `tinyRobot`).
