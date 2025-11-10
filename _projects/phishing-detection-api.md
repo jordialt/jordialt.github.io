@@ -9,7 +9,7 @@ category: fun
 github: jordialt/phishing-detection-api
 # website: # Add a link to a live demo of the API if it's deployed
 ---
-
+<a href="https://github.com/jordialt/phising-detection-api" target="_blank" class="btn btn-sm z-depth-0 role="button"">View Code on GitHub</a>
 This project focuses on building a robust, lightweight **Machine Learning API** capable of detecting phishing websites based on URL features.
 
 The workflow involved:
