@@ -56,7 +56,7 @@ ninja.data = [{
           title: 'Eat That Frog!',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/eat_that_frog/";
             },},{
         id: 'social-email',
         title: 'email',
