@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -64,6 +64,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/eat_that_frog/";
+            },},{id: "projects-llm-rl-agent",
+          title: 'LLM-RL Agent',
+          description: "Training a Reinforcement Learning agent (PPO) guided by a Large Language Model (LLM) on the classic CartPole environment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm-rl-agent/";
+            },},{id: "projects-phishing-detection-api",
+          title: 'Phishing Detection API',
+          description: "A web service API for classifying URLs as phishing or legitimate using various trained Machine Learning models (Logistic Regression, Random Forest, XGBoost).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/phishing-detection-api/";
             },},{
         id: 'social-email',
         title: 'email',
