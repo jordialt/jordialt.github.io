@@ -1,1 +1,13 @@
+github_users:
+  - jordialt
 
+repo_description_lines_max: 2
+
+github_repos:
+  - jordialt/llm-rl-agent
+  - jordialt/IR2117
+  - jordialt/IR2121
+  - jordialt/IR2136
+  - jordialt/IR2134
+  - jordialt/phishing-detection-api
+  
