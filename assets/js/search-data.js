@@ -74,6 +74,11 @@ ninja.data = [{
           description: "A web service API for classifying URLs as phishing or legitimate using various trained Machine Learning models (Logistic Regression, Random Forest, XGBoost).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/phishing-detection-api/";
+            },},{id: "projects-rmf-robot-fleet-management-simulation",
+          title: 'RMF Robot Fleet Management Simulation',
+          description: "Implementation of multi-robot cleaning and patrol scheduling using the Robotics Middleware Framework (RMF) within a Gazebo simulation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rmf-fleet-management/";
             },},{
         id: 'social-email',
         title: 'email',
