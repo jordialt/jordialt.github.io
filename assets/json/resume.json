@@ -29,7 +29,7 @@
     {
       "name": "Universitat Jaume I (UJI)",
       "position": "Curricular Internship (Applied For)",
-      "startDate": "2024",
+      "startDate": "2025",
       "endDate": "Present",
       "summary": "Seeking a Curricular Internship in Computer Vision and Machine Learning. The degree includes 148 hours of curricular internships."
     }
@@ -42,7 +42,7 @@
       "area": "Robotic Intelligence",
       "studyType": "B.Sc.",
       "startDate": "2021",
-      "endDate": "2025",
+      "endDate": "2026",
       "courses": [
         "Focused on software development for intelligent robotic systems.",
         "Coursework: Computer Vision, Machine Learning, Digital Systems, and Control."
@@ -123,24 +123,5 @@
     }
   ],
   "references": [],
-  "projects": [
-    {
-      "name": "Autonomous Robot Navigation (Simulation)",
-      "summary": "Implemented obstacle avoidance and basic path planning in Gazebo + ROS. Focused on integrating perception and control modules.",
-      "startDate": "2024",
-      "url": ""
-    },
-    {
-      "name": "Image Classification using Machine Learning",
-      "summary": "Built an image classification model using scikit-learn and scikit-image. Applied algorithms such as SVM and Random Forest for comparative evaluation.",
-      "startDate": "2023",
-      "url": ""
-    },
-    {
-      "name": "Image Processing with OpenCV",
-      "summary": "Developed an edge detection and segmentation system using OpenCV. Designed for preprocessing data in robotic vision applications.",
-      "startDate": "2023",
-      "url": ""
-    }
-  ]
+  "projects": []
 }
