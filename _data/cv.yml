@@ -16,31 +16,48 @@
   contents:
     - title: Autonomous Robot Navigation (Simulation)
       institution: Academic Project
-      year: 2024 # You can change this year
+      year: 2023 
       description:
         - Implemented obstacle avoidance and basic path planning in Gazebo + ROS.
         - Focused on integrating perception and control modules.
     - title: Image Classification using Machine Learning
       institution: Academic Project
-      year: 2023 # You can change this year
+      year: 2023
       description:
         - Built an image classification model using scikit-learn and scikit-image.
         - Applied algorithms such as SVM and Random Forest for comparative evaluation.
     - title: Image Processing with OpenCV
       institution: Academic Project
-      year: 2023 # You can change this year
+      year: 2023
       description:
         - Developed an edge detection and segmentation system using OpenCV.
         - Designed for preprocessing data in robotic vision applications.
 
-- title: Personal Skills
+- title: Technical Skills & Competences
   type: nested_list
   contents:
-    - title: Communication Skills
+    - title: Computer Skills
       items: 
-        - Teamwork and collaboration developed in academic robotics projects.
-        - Ability to explain technical topics clearly to peers.
-    - title: Organisational Skills
+        - **Programming:** Python, C++
+        - **Libraries:** NumPy, scikit-learn, scikit-image, OpenCV
+        - **Tools & OS:** Git, ROS (basic), Visual Studio Code, Jupyter Notebook, Linux, Windows
+    - title: Communication & Organisational Skills
       items:
+        - Teamwork and collaboration developed in academic robotics projects.
         - Structured and efficient approach to project organization and coding workflow.
         - Capable of working independently with responsibility and initiative.
+        
+- title: Languages
+  type: nested_list
+  contents:
+    - title: Spanish (Mother Tongue)
+    - title: English (C1 Proficient User)
+      items:
+        - **Levels:** Listening C1, Reading C1, Spoken Interaction C1, Spoken Production C1, Writing C1.
+        - **Certification:** Cambridge English C1 Advanced (University of Cambridge).
+
+- title: Other Skills & Interests
+  type: list
+  contents:
+    - Curiosity-driven learner, disciplined, passionate about robotics and artificial intelligence.
+    - Driving License B.
