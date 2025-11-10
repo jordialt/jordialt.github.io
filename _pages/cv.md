@@ -1,12 +1,22 @@
 ---
 layout: cv
+title: Curriculum Vitae
 permalink: /cv/
-title: cv
-nav: true
-nav_order: 5
-cv_pdf: Europass_CV_1.pdf
 
-description: Here's an overview of my background and my relevant skills.
-toc:
-  sidebar: left
+# This tells the CV layout to load content from _data/cv.yml
+jsonresume: 
+  - basics
+  - education
+  - work
+  - publications
+  - projects
+  - awards
+  - certificates
+  - skills
+  - languages
+  - interests
+  - references
+
+# This adds a "Download PDF" button. Ensure your PDF is named correctly.
+a_pdf: Europass_CV_1.pdf 
 ---
