@@ -10,3 +10,37 @@
     - title: High School Diploma (Science and Technology Track)
       institution: IES Vicent i Castell Doménech, Castellón de la Plana, Spain
       year: 2019-2021
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Autonomous Robot Navigation (Simulation)
+      institution: Academic Project
+      year: 2024 # You can change this year
+      description:
+        - Implemented obstacle avoidance and basic path planning in Gazebo + ROS.
+        - Focused on integrating perception and control modules.
+    - title: Image Classification using Machine Learning
+      institution: Academic Project
+      year: 2023 # You can change this year
+      description:
+        - Built an image classification model using scikit-learn and scikit-image.
+        - Applied algorithms such as SVM and Random Forest for comparative evaluation.
+    - title: Image Processing with OpenCV
+      institution: Academic Project
+      year: 2023 # You can change this year
+      description:
+        - Developed an edge detection and segmentation system using OpenCV.
+        - Designed for preprocessing data in robotic vision applications.
+
+- title: Personal Skills
+  type: nested_list
+  contents:
+    - title: Communication Skills
+      items: 
+        - Teamwork and collaboration developed in academic robotics projects.
+        - Ability to explain technical topics clearly to peers.
+    - title: Organisational Skills
+      items:
+        - Structured and efficient approach to project organization and coding workflow.
+        - Capable of working independently with responsibility and initiative.
