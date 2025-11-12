@@ -9,11 +9,11 @@ categories: productivity self-help business time-management
 tags: top-100
 buy_link: https://a.co/d/6cVYv87
 started: 27-10-2025
-# finished: # [ADD FINISHED DATE, e.g., 2024-10-15]
+finished: 12-11-2025
 released: 2006
 stars: 4
 # goodreads_review: # [ADD GOODREADS REVIEW ID HERE]
-status: Reading
+status: Finished
 ---
 
 **Main Review**
