@@ -79,6 +79,11 @@ ninja.data = [{
           description: "Implementation of multi-robot cleaning and patrol scheduling using the Robotics Middleware Framework (RMF) within a Gazebo simulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rmf-fleet-management/";
+            },},{id: "projects-python-telegram-task-bot",
+          title: 'Python Telegram Task Bot',
+          description: "A personal task management bot built with Python and the python-telegram-bot library, designed for easy deployment via Docker.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/telegram-task-bot/";
             },},{
         id: 'social-email',
         title: 'email',
