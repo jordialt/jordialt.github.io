@@ -64,6 +64,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/eat_that_frog/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mindset/";
             },},{id: "projects-llm-rl-agent",
           title: 'LLM-RL Agent',
           description: "Training a Reinforcement Learning agent (PPO) guided by a Large Language Model (LLM) on the classic CartPole environment.",
