@@ -13,7 +13,7 @@ finished:
 released: 2006 
 stars: # [ADD STAR RATING HERE]
 # goodreads_review: # [ADD GOODREADS REVIEW ID HERE]
-status: READING
+status: Reading
 ---
 
 **Main Review**
