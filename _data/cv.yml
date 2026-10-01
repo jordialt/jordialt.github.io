@@ -3,10 +3,28 @@
   contents:
     - name: Full Name
       value: Jordi Altarejos Bono
-    - name: Nationality
-      value: Spanish
+    - name: Location
+      value: Castellón de la Plana, Spain
     - name: Contact
       value: jordialtarejos@gmail.com
+    - name: GitHub
+      value: github.com/jordialt
+    - name: LinkedIn
+      value: linkedin.com/in/jordi-altarejos-bono
+
+---
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Machine Learning Intern (Erasmus+ Traineeship)
+      institution: Digiole Oy, Helsinki, Finland
+      year: Feb 2026 – June 2026
+      description:
+        - Designed and deployed an end-to-end autonomous B2B lead generation and web scraping pipeline using Playwright and Scrapling with Google Maps API.
+        - Integrated local LLM generation with Ollama and structured deterministic templates for context-aware outreach email generation with zero token cost.
+        - Built a strategic agent prototype with persistent state handling (SQLite), contextual retrieval (RAG), and scheduled report dispatches.
+        - Benchmarked agentic software engineering tools (Claude Code vs. Codex, OpenClaw) on AWS EC2 instances and evaluated edge AI performance.
 
 ---
 
@@ -15,68 +33,68 @@
   contents:
     - title: B.Sc. in Robotic Intelligence
       institution: Universitat Jaume I (UJI), Castellón de la Plana, Spain
-      year: 2021-Present
+      year: 2021 – 2026
       description:
-        - Focused on software development for intelligent robotic systems.
-        - Coursework: Computer Vision, Machine Learning, Digital Systems, and Control.
-        - Includes 148 hours of curricular internships and 150 hours of Bachelor's Thesis (TFG).
-    - title: High School Diploma (Science and Technology Track)
-      institution: IES Vicent i Castell Doménech, Castellón de la Plana, Spain
-      year: 2019-2021
+        - Specialized in Autonomous Robotics, Computer Vision, Kinematics, Machine Learning, and Real-Time Systems.
+        - Bachelor's Thesis (TFG): "Lightweight Gesture-Driven Robotic Digital Twin Prototype for Human-Robot Interaction Validation".
+        - International Curricular Internship at Digiole Oy (Helsinki, Finland).
 
 ---
 
-- title: Academic Projects
+- title: Highlighted Projects
   type: time_table
   contents:
-    - title: Image Classification using Machine Learning
-      year: 2023
+    - title: Lightweight Gesture-Driven Robotic Digital Twin (TFG)
+      year: 2026
       description:
-        - Built an image classification model using scikit-learn and scikit-image.
-        - Applied algorithms such as SVM and Random Forest for comparative evaluation.
-    - title: Image Processing with OpenCV
-      year: 2023
+        - Developed a real-time, contactless teleoperation HRI system operating purely on low-end CPU hardware without wearable sensors or depth cameras.
+        - Implemented a 5-frame debounce filter (confidence >= 0.6) over MediaPipe Tasks gesture predictions to suppress classifier flutter.
+        - Built a 3D digital twin of a 7-DOF Franka Panda arm in PyBullet governed by inverse kinematics across dual Cartesian control planes (X-Z / Y-Yaw).
+        - Achieved a validated throughput of 23.79 FPS with 17.47 ms average latency over 24,300+ logged frames.
+    - title: Autonomous B2B Lead Generation Pipeline
+      year: 2026
       description:
-        - Developed an edge detection and segmentation system using OpenCV.
-        - Designed for preprocessing data in robotic vision applications.
-    - title: Autonomous Robot Navigation (Simulation)
-      year: 2023
+        - Developed a multi-stage production pipeline for business discovery, scraping, scoring, and automated cold outreach.
+        - Bypassed anti-bot protections using Playwright and Scrapling across diverse commercial sectors.
+    - title: Strategic Agent MVP (RAG + Persistent Memory)
+      year: 2026
       description:
-        - Implemented obstacle avoidance and basic path planning in Gazebo + ROS.
-        - Focused on integrating perception and control modules.
+        - Architected an autonomous agent with SQLite conversational memory, semantic context retrieval (RAG), and automated summary dispatches.
 
 ---
 
-- title: Technical Skills & Competences
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Computer Skills
+    - title: Programming & Core
       items:
-        # **These lines are now correctly quoted to fix the YAML error:**
-        - "**Programming:** Python, C++"
-        - "**Libraries:** NumPy, scikit-learn, scikit-image, OpenCV"
-        - "**Tools & OS:** Git, ROS (basic), Visual Studio Code, Jupyter Notebook, Linux, Windows"
-    - title: Soft Skills
+        - "**Languages:** Python, C++, Bash/Shell, SQL (SQLite), MATLAB, Verilog"
+        - "**Systems & Tools:** Linux, Git/GitHub, Docker, AWS EC2, LaTeX"
+    - title: Robotics & Vision
       items:
-        - Teamwork and collaboration developed in academic robotics projects.
-        - Structured and efficient approach to project organization and coding workflow.
-        - Capable of working independently with responsibility and initiative.
+        - "**Perception:** OpenCV, MediaPipe Tasks API, NumPy"
+        - "**Simulation & Control:** PyBullet (URDF, Inverse Kinematics), Pygame, ROS2"
+    - title: Machine Learning & Agentic AI
+      items:
+        - "**Inference & Workflows:** Ollama (Local LLMs), Claude API, Claude Code, RAG, PyTorch, Scikit-learn"
+        - "**Scraping & Automation:** Playwright, Scrapling, BeautifulSoup, Google Maps API
 
 ---
 
 - title: Languages
   type: nested_list
   contents:
-    - title: Spanish (Mother Tongue)
-    - title: English (C1 Proficient User)
+    - title: Spanish (Native)
+    - title: Valencian (Native)
+    - title: English (C1 Advanced)
       items:
-        - "**Levels:** Listening C1, Reading C1, Spoken Interaction C1, Spoken Production C1, Writing C1."
         - "**Certification:** Cambridge English C1 Advanced (University of Cambridge)."
 
 ---
 
-- title: Other Interests
+- title: Certifications & Other
   type: list
   contents:
-    - Curiosity-driven learner, disciplined, passionate about robotics and artificial intelligence.
-    - Driving License B.
+    - Certificate in Advanced English (C1) — Cambridge Assessment English
+    - Claude 101 & AI Fluency for Students — Anthropic
+    - Full Driver's License (B)
