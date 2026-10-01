@@ -12,11 +12,7 @@ url: "https://jordialt.github.io"
 github_username: jordialt
 linkedin_username: jordi-altarejos-bono
 
-# Configuración de compilación
-theme: minima # O el tema que tengas configurado
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
