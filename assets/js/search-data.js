@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-",
-    title: "",
+    id: "nav-about",
+    title: "about",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -69,16 +69,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/mindset/";
-            },},{id: "projects-llm-rl-agent",
-          title: 'LLM-RL Agent',
-          description: "Training a Reinforcement Learning agent (PPO) guided by a Large Language Model (LLM) on the classic CartPole environment.",
+            },},{id: "projects-gesture-driven-robotic-digital-twin-tfg",
+          title: 'Gesture-Driven Robotic Digital Twin (TFG)',
+          description: "Prototipo ligero de gemelo digital basado en gestos para la validación de la interacción humano-robot.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/llm-rl-agent/";
-            },},{id: "projects-phishing-detection-api",
-          title: 'Phishing Detection API',
-          description: "A web service API for classifying URLs as phishing or legitimate using various trained Machine Learning models (Logistic Regression, Random Forest, XGBoost).",
+              window.location.href = "/projects/1_gesture_digital_twin/";
+            },},{id: "projects-production-lead-gen-amp-agentic-ai",
+          title: 'Production Lead-Gen &amp;amp; Agentic AI',
+          description: "Pipeline autónomo de prospección B2B y evaluación de asistentes estratégicos en Digiole Oy.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/phishing-detection-api/";
+              window.location.href = "/projects/2_lead_gen_agent/";
             },},{id: "projects-rmf-robot-fleet-management-simulation",
           title: 'RMF Robot Fleet Management Simulation',
           description: "Implementation of multi-robot cleaning and patrol scheduling using the Robotics Middleware Framework (RMF) within a Gazebo simulation.",
