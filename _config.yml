@@ -2,30 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Jordi Altarejos Bono # the website title (if blank, full name will be used instead)
-first_name: Jordi
-middle_name:
-last_name: Altarejos Bono
-contact_note: >
-  Feel free to contact me via email or LinkedIn.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Final-year student of the Bachelor's Degree in Robotic Intelligence at the Universitat Jaume
-  I (UJI). Interested in computer vision, machine learning and intelligent robotics, with ex-
-  perience in Python and C++.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 👨‍💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+title: Jordi Altarejos Bono
+author: Jordi Altarejos Bono
+email: jordialtarejos@gmail.com
+description: "Graduado en Inteligencia Robótica | Machine Learning, Computer Vision y Gemelos Digitales"
+url: "https://jordialt.github.io"
 
-url: https://jordialt.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+# Enlaces sociales y perfiles
+github_username: jordialt
+linkedin_username: jordi-altarejos-bono
 
+# Configuración de compilación
+theme: minima # O el tema que tengas configurado
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
