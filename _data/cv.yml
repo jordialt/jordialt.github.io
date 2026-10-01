@@ -3,9 +3,11 @@
   contents:
     - name: Full Name
       value: Jordi Altarejos Bono
+    - name: Degree
+      value: B.Sc. in Robotic Intelligence
     - name: Location
       value: Castellón de la Plana, Spain
-    - name: Contact
+    - name: Email
       value: jordialtarejos@gmail.com
     - name: GitHub
       value: github.com/jordialt
@@ -21,10 +23,10 @@
       institution: Digiole Oy, Helsinki, Finland
       year: Feb 2026 – June 2026
       description:
-        - Designed and deployed an end-to-end autonomous B2B lead generation and web scraping pipeline using Playwright and Scrapling with Google Maps API.
-        - Integrated local LLM generation with Ollama and structured deterministic templates for context-aware outreach email generation with zero token cost.
-        - Built a strategic agent prototype with persistent state handling (SQLite), contextual retrieval (RAG), and scheduled report dispatches.
-        - Benchmarked agentic software engineering tools (Claude Code vs. Codex, OpenClaw) on AWS EC2 instances and evaluated edge AI performance.
+        - Designed and deployed an autonomous end-to-end B2B outbound lead generation pipeline integrating Google Maps API, Playwright, and Scrapling for high-throughput business qualification across Europe.
+        - Deployed local LLM workflows via Ollama coupled with deterministic templating to automate context-aware outreach email generation with zero token cost.
+        - Built an autonomous strategic assistant MVP featuring persistent state handling (SQLite), Retrieval-Augmented Generation (RAG) for contextual memory retrieval, and scheduled report dispatching.
+        - Benchmarked agentic software engineering tools (Claude Code vs. Codex, OpenClaw) on AWS EC2 instances and evaluated edge AI performance on constrained hardware.
 
 ---
 
@@ -35,31 +37,30 @@
       institution: Universitat Jaume I (UJI), Castellón de la Plana, Spain
       year: 2021 – 2026
       description:
-        - Specialized in Autonomous Robotics, Computer Vision, Kinematics, Machine Learning, and Real-Time Systems.
-        - Bachelor's Thesis (TFG): "Lightweight Gesture-Driven Robotic Digital Twin Prototype for Human-Robot Interaction Validation".
-        - International Curricular Internship at Digiole Oy (Helsinki, Finland).
+        - Coursework focused on Autonomous Robotics, Computer Vision, Kinematics, Machine Learning, Digital Systems, and Real-Time Control Loops.
+        - Bachelor's Thesis (TFG): "Lightweight Gesture-Driven Robotic Digital Twin Prototype for Human-Robot Interaction Validation" (Supervised by Prof. Angel Pascual del Pobil).
+        - Completed 4-month international curricular internship at Digiole Oy in Helsinki, Finland.
 
 ---
 
 - title: Highlighted Projects
   type: time_table
   contents:
-    - title: Lightweight Gesture-Driven Robotic Digital Twin (TFG)
+    - title: Lightweight Gesture-Driven Robotic Digital Twin (Bachelor's Thesis)
       year: 2026
       description:
-        - Developed a real-time, contactless teleoperation HRI system operating purely on low-end CPU hardware without wearable sensors or depth cameras.
-        - Implemented a 5-frame debounce filter (confidence >= 0.6) over MediaPipe Tasks gesture predictions to suppress classifier flutter.
-        - Built a 3D digital twin of a 7-DOF Franka Panda arm in PyBullet governed by inverse kinematics across dual Cartesian control planes (X-Z / Y-Yaw).
-        - Achieved a validated throughput of 23.79 FPS with 17.47 ms average latency over 24,300+ logged frames.
+        - Built a real-time, contactless teleoperation HRI system operating purely on commodity CPU hardware without wearable sensors or depth cameras.
+        - Formulated a 5-frame consecutive debounce filter (confidence >= 0.6) over MediaPipe Tasks gesture predictions, suppressing classifier flutter and false triggers.
+        - Implemented a PyBullet 3D digital twin of a 7-DOF Franka Panda arm controlled via bounded numerical inverse kinematics across dual Cartesian control planes (X-Z / Y-Yaw).
+        - Benchmarked 24,300+ frames using a non-blocking queue logger, proving an average throughput of 23.79 FPS and an average processing latency of 17.47 ms.
     - title: Autonomous B2B Lead Generation Pipeline
       year: 2026
       description:
-        - Developed a multi-stage production pipeline for business discovery, scraping, scoring, and automated cold outreach.
-        - Bypassed anti-bot protections using Playwright and Scrapling across diverse commercial sectors.
-    - title: Strategic Agent MVP (RAG + Persistent Memory)
+        - Engineered an automated lead discovery, scraping, and scoring pipeline utilizing Playwright and Scrapling to bypass anti-bot protections across multiple business sectors.
+    - title: Strategic Agent MVP (RAG + Persistent State)
       year: 2026
       description:
-        - Architected an autonomous agent with SQLite conversational memory, semantic context retrieval (RAG), and automated summary dispatches.
+        - Architected an autonomous conversational agent featuring SQLite persistent state handling, semantic retrieval (RAG), and automated summary dispatches.
 
 ---
 
@@ -69,15 +70,15 @@
     - title: Programming & Core
       items:
         - "**Languages:** Python, C++, Bash/Shell, SQL (SQLite), MATLAB, Verilog"
-        - "**Systems & Tools:** Linux, Git/GitHub, Docker, AWS EC2, LaTeX"
+        - "**Tools & Environments:** Linux, Git/GitHub, Docker, AWS EC2, LaTeX"
     - title: Robotics & Vision
       items:
         - "**Perception:** OpenCV, MediaPipe Tasks API, NumPy"
-        - "**Simulation & Control:** PyBullet (URDF, Inverse Kinematics), Pygame, ROS2"
+        - "**Simulation & Kinematics:** PyBullet (URDF, Inverse Kinematics), Pygame, ROS2"
     - title: Machine Learning & Agentic AI
       items:
-        - "**Inference & Workflows:** Ollama (Local LLMs), Claude API, Claude Code, RAG, PyTorch, Scikit-learn"
-        - "**Scraping & Automation:** Playwright, Scrapling, BeautifulSoup, Google Maps API
+        - "**Inference & Local LLMs:** Ollama, Claude API, Claude Code, RAG, PyTorch, Scikit-learn"
+        - "**Scraping & Automation:** Playwright, Scrapling, BeautifulSoup, Google Maps API"
 
 ---
 
@@ -97,4 +98,4 @@
   contents:
     - Certificate in Advanced English (C1) — Cambridge Assessment English
     - Claude 101 & AI Fluency for Students — Anthropic
-    - Full Driver's License (B)
+    - Valid Driver's License (B)
