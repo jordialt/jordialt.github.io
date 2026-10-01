@@ -2,28 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.uji.es/'>Universitat Jaume I</a>. Robotic Intelligence Graduate & Former ML Intern @ <a href='https://digiole.com/'>Digiole Oy</a>.
+subtitle: <a href='https://www.uji.es/'>Universitat Jaume I</a>. Robotic Intelligence Graduate & Former Machine Learning Intern @ <a href='https://digiole.com/'>Digiole Oy</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # cambia a true si quieres foto redonda
+  image_circular: false
   more_info: >
     <p>Castellón de la Plana, Spain</p>
-    <p>al416445@uji.es</p>
+    <p>jordialtarejos@gmail.com</p>
 
-news: true # mantén true si usas la sección de novedades
-selected_papers: false # pon false si aún no tienes artículos publicados en bibtex
-social: true # muestra tus iconos sociales al pie de la foto
+news: true
+selected_papers: false
+social: true
 ---
 
-Graduado en **Inteligencia Robótica** por la Universitat Jaume I de Castellón con experiencia práctica internacional en **Machine Learning, Visión por Computador e IA Agéntica**.
+I am a **Robotic Intelligence** graduate from Universitat Jaume I (Castellón, Spain) with international industry experience in **Machine Learning, Computer Vision, and Agentic AI**[cite: 1, 42].
 
-Recientemente completé una estancia de 4 meses en Helsinki (Finlandia) como **Machine Learning Intern en Digiole Oy**, donde desarrollé y desplegué en producción canalizaciones autónomas de captación B2B, integración de modelos LLM locales mediante **Ollama** y asistentes estratégicos con arquitecturas **RAG**.
+I completed a 4-month Erasmus+ traineeship in Helsinki (Finland) as a **Machine Learning Intern at Digiole Oy**[cite: 1, 42]. During this period, I engineered and shipped an autonomous end-to-end B2B lead generation pipeline[cite: 43], integrated local LLM workflows via **Ollama**[cite: 43], built a strategic assistant prototype powered by **RAG** with persistent SQLite memory[cite: 44], and benchmarked agentic software engineering tools on **AWS EC2**[cite: 42, 44].
 
-Mi Trabajo de Fin de Grado abordó el diseño e implementación de un **gemelo digital robótico guiado por gestos en tiempo real** utilizando cámaras RGB estándar, MediaPipe Tasks y PyBullet sobre hardware de recursos limitados, optimizando la latencia y la estabilidad del control cinemático.
+For my Bachelor's Thesis (TFG), I developed and experimentally validated a **lightweight, gesture-driven robotic digital twin** for Human-Robot Interaction (HRI)[cite: 2, 4]. The system runs on commodity consumer CPU hardware without wearable sensors or depth cameras, combining **MediaPipe Tasks**, frame debounce filtering, and **PyBullet** numerical inverse kinematics on a 7-DOF Franka Panda arm (achieving 23.79 FPS with 17.47 ms processing latency across 24,300+ frames)[cite: 4, 15, 23, 24, 28].
 
-Mis áreas clave de trabajo incluyen:
-* **Robótica y Cinemática:** Modelado URDF (Franka Panda 7-DOF), Cinemática Inversa (IK), Interacción Humano-Robot (HRI) y entornos de física en PyBullet.
-* **Visión por Computador:** Pipeline de percepción en tiempo real con OpenCV y MediaPipe Tasks, reducción de falsos positivos mediante capas de filtrado por antirrebote (*debounce*).
-* **IA Agéntica y Automatización:** Despliegue de LLMs en local con Ollama, flujos con Claude Code / API, web scraping a gran escala con Playwright y Scrapling, y entornos Cloud en AWS EC2.
+### Core Technical Focus
+
+* **Robotics & Simulation:** URDF kinematic modeling, inverse kinematics (IK), 3D physical simulation in PyBullet (Franka Panda 7-DOF), 2D planar validation (Pygame), and ROS2[cite: 4, 23, 24].
+* **Computer Vision & Perception:** Real-time perception with OpenCV and MediaPipe Tasks API (video mode), gesture classification, and consecutive-frame debounce filtering for robust state management[cite: 4, 21, 22].
+* **Applied & Agentic AI:** Local LLM deployment (Ollama), Claude Code and Anthropic API workflows, Retrieval-Augmented Generation (RAG), and high-throughput automated web scraping with Playwright and Scrapling[cite: 42, 43, 44].
+* **Engineering Tools & Cloud:** Linux environments, Git/GitHub, AWS EC2 instances, Bash scripting, and SQLite[cite: 1, 42, 44].
+
+Feel free to explore my [Projects](/projects/)[cite: 55], inspect my code on [GitHub](https://github.com/jordialt), or check my [CV](/cv/)[cite: 52].
