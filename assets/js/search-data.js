@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Curriculum Vitae of Jordi Altarejos Bono. B.Sc. in Robotic Intelligence and former ML Intern at Digiole Oy.",
+          description: "Curriculum Vitae of Jordi Altarejos Bono. B.Sc. in Robotic Intelligence and former Machine Learning Intern at Digiole Oy.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
